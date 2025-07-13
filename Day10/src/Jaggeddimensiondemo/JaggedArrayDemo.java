@@ -19,7 +19,7 @@ class JaggedArray
 
 
 public class JaggedArrayDemo  {
-
+ 
 	public static void main(String[] args) {
 		
 	int c[][]= { {1,2,3,12,34} , {10,20} , {1} , {1,2,78,87} };
