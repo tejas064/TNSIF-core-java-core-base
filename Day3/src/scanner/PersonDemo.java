@@ -2,6 +2,8 @@ package scanner;
 
 import java.util.Scanner;
 
+import constructor.TaxCalculation;
+
 public class PersonDemo {
 
 	public static void main(String[] args) {
@@ -47,7 +49,7 @@ public class PersonDemo {
 		
 		System.out.println("After creating tax object ");
 		TaxCalculation calc=new TaxCalculation();
-		calc.calculateTax(person);
+		        calc.calculateTax(person);
 		System.out.println("After Calculation of tax :");
 		
 		
